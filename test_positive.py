@@ -3,7 +3,7 @@ import subprocess
 tst = "/home/user/tst"
 out = "/home/user/out"
 folder1 = "/home/user/folder1"
-folder2 = "/home/user/folder1"
+folder2 = "/home/user/folder2"
 
 
 def checkout(cmd, text):
@@ -58,7 +58,7 @@ def test_step6():
     assert result1 and result2, "test6 FAIL"
 
 
-def test_step87():
+def test_step7():
     # test7
     result1 = checkout("cd {}; 7z x arx2.7z -o{} -y".format(out, folder2), "Everything is Ok")
     result2 = checkout("ls {}".format(folder2), "qwe")
