@@ -1,25 +1,17 @@
-import subprocess
+import yaml
+from checkers import checkout_negative
 
-tst = "/home/user/tst"
-out = "/home/user/out"
-folder1 = "/home/user/folder1"
-
-
-def checkout(cmd, text):
-    result = subprocess.run(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, encoding='utf-8')
-    if (text in result.stdout or result.stderr) and result.returncode != 0:
-        return True
-    else:
-        return False
+with open('config.yaml') as f: # положили в yaml переменные, которым присвоили пути
+    data = yaml.safe_load(f) # безопасная загрузка без лишних данных
 
 
-def test_step1():
-    # test1
-    assert checkout("cd {}; 7z e bad_arx.7z -o{} -y".format(out, folder1), "ERRORS"), "test1 FAIL"
+class TestNegative:
+    def test_step1(self, make_bad_arx):
+        # test1
+        assert checkout_negative("cd {}; 7z e bad_arx.7z -o{} -y".format(data["out"], data["folder1"]), "ERRORS"), "test1 FAIL"
 
-
-def test_step2():
-    # test2
-    assert checkout("cd {}; 7z t bad_arx.7z".format(out), "ERRORS"), "test2 FAIL"
+    def test_step2(self):
+        # test2
+        assert checkout_negative("cd {}; 7z t bad_arx.7z".format(data["out"]), "ERRORS"), "test2 FAIL"
 
 

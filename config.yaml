@@ -1,0 +1,7 @@
+tst: /home/user/tst
+out: /home/user/out
+folder1: /home/user/folder1
+folder2: /home/user/folder2
+count: 3
+bs: 1M
+type: zip
