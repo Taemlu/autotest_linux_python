@@ -1,60 +1,147 @@
-time: 10:04:51.897712 count:5 size: 1M load: 0.68 0.27 0.28 1/746 5688
-
-time: 10:04:53.189040 count:5 size: 1M load: 0.68 0.27 0.28 6/746 5699
-
-time: 10:04:53.202518 count:5 size: 1M load: 0.68 0.27 0.28 4/746 5704
-
-time: 10:04:54.310183 count:5 size: 1M load: 0.68 0.27 0.28 10/746 5727
-
-time: 10:04:55.332810 count:5 size: 1M load: 0.68 0.27 0.28 3/746 5758
-
-time: 10:04:55.352162 count:5 size: 1M load: 0.68 0.27 0.28 2/746 5763
-
-time: 10:04:55.373852 count:5 size: 1M load: 0.68 0.27 0.28 3/746 5768
-
-time: 10:04:56.367054 count:5 size: 1M load: 0.68 0.27 0.28 3/745 5797
-
-time: 10:04:57.633187 count:5 size: 1M load: 0.71 0.28 0.28 7/745 5836
-
-time: 10:04:57.645858 count:5 size: 1M load: 0.71 0.28 0.28 1/745 5841
-
-time: 10:16:36.321268 count:3 size: 1M load: 0.75 0.96 0.62 4/771 7500
-
-time: 10:16:37.297567 count:3 size: 1M load: 0.77 0.96 0.62 4/775 7517
-
-time: 10:16:37.307707 count:3 size: 1M load: 0.77 0.96 0.62 1/775 7522
-
-time: 10:16:37.408977 count:3 size: 1M load: 0.77 0.96 0.62 1/775 7542
-
-time: 10:16:37.507798 count:3 size: 1M load: 0.77 0.96 0.62 1/775 7566
-
-time: 10:16:37.518686 count:3 size: 1M load: 0.77 0.96 0.62 1/775 7571
-
-time: 10:16:37.533486 count:3 size: 1M load: 0.77 0.96 0.62 1/775 7576
-
-time: 10:16:37.629648 count:3 size: 1M load: 0.77 0.96 0.62 1/775 7598
-
-time: 10:16:37.742132 count:3 size: 1M load: 0.77 0.96 0.62 1/775 7631
-
-time: 10:16:37.752305 count:3 size: 1M load: 0.77 0.96 0.62 1/775 7636
-
-time: 10:17:58.243266 count:3 size: 1M load: 0.36 0.78 0.59 3/766 7722
-
-time: 10:17:58.833789 count:3 size: 1M load: 0.36 0.78 0.59 1/766 7733
-
-time: 10:17:58.845048 count:3 size: 1M load: 0.36 0.78 0.59 2/766 7738
-
-time: 10:17:58.953025 count:3 size: 1M load: 0.36 0.78 0.59 3/766 7758
-
-time: 10:17:59.055656 count:3 size: 1M load: 0.36 0.78 0.59 1/766 7782
-
-time: 10:17:59.068246 count:3 size: 1M load: 0.36 0.78 0.59 2/766 7787
-
-time: 10:17:59.084394 count:3 size: 1M load: 0.36 0.78 0.59 1/766 7792
-
-time: 10:17:59.192073 count:3 size: 1M load: 0.36 0.78 0.59 2/766 7814
-
-time: 10:17:59.309943 count:3 size: 1M load: 0.36 0.78 0.59 1/766 7847
-
-time: 10:17:59.322648 count:3 size: 1M load: 0.36 0.78 0.59 6/766 7852
-
+Journal of logs:
+ноя 19 17:08:17 userpc sudo[45285]: pam_unix(sudo:auth): conversation failed
+ноя 19 17:08:17 userpc sudo[45285]: pam_unix(sudo:auth): auth could not identify password for [user2]
+ноя 19 17:08:17 userpc sudo[45285]:    user2 : 1 incorrect password attempt ; PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/apt list libarchive-zip-perl
+ноя 19 17:08:17 userpc snapd-desktop-i[45091]: Detected new session 753 at /org/freedesktop/login1/session/_3753
+ноя 19 17:08:17 userpc snapd-desktop-i[45091]: Detected new session 754 at /org/freedesktop/login1/session/_3754
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+Journal of logs:
+ноя 19 17:08:19 userpc snapd-desktop-i[45091]: Detected new session 757 at /org/freedesktop/login1/session/_3757
+ноя 19 17:08:19 userpc snapd-desktop-i[45091]: Detected new session 758 at /org/freedesktop/login1/session/_3758
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+Journal of logs:
+ноя 19 17:08:26 userpc sudo[45849]: pam_unix(sudo:auth): conversation failed
+ноя 19 17:08:26 userpc sudo[45849]: pam_unix(sudo:auth): auth could not identify password for [user2]
+ноя 19 17:08:26 userpc sudo[45849]:    user2 : 1 incorrect password attempt ; PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/apt list libarchive-zip-perl
+ноя 19 17:08:26 userpc snapd-desktop-i[45091]: Detected new session 765 at /org/freedesktop/login1/session/_3765
+ноя 19 17:08:26 userpc snapd-desktop-i[45091]: Detected new session 766 at /org/freedesktop/login1/session/_3766
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+Journal of logs:
+ноя 19 17:08:28 userpc snapd-desktop-i[45091]: Detected new session 771 at /org/freedesktop/login1/session/_3771
+ноя 19 17:08:28 userpc snapd-desktop-i[45091]: Detected new session 772 at /org/freedesktop/login1/session/_3772
+ноя 19 17:08:28 userpc snapd-desktop-i[45091]: Detected new session 773 at /org/freedesktop/login1/session/_3773
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+Journal of logs:
+ноя 19 17:08:31 userpc snapd-desktop-i[45091]: Detected new session 782 at /org/freedesktop/login1/session/_3782
+ноя 19 17:08:31 userpc snapd-desktop-i[45091]: Detected new session 783 at /org/freedesktop/login1/session/_3783
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+Journal of logs:
+ноя 19 17:08:31 userpc snapd-desktop-i[45091]: Detected new session 782 at /org/freedesktop/login1/session/_3782
+ноя 19 17:08:31 userpc snapd-desktop-i[45091]: Detected new session 783 at /org/freedesktop/login1/session/_3783
+ноя 19 17:08:31 userpc snapd-desktop-i[45091]: Detected new session 784 at /org/freedesktop/login1/session/_3784
+ноя 19 17:08:32 userpc snapd-desktop-i[45091]: Detected new session 785 at /org/freedesktop/login1/session/_3785
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+Journal of logs:
+ноя 19 17:08:32 userpc snapd-desktop-i[45091]: Detected new session 785 at /org/freedesktop/login1/session/_3785
+ноя 19 17:08:32 userpc snapd-desktop-i[45091]: Detected new session 786 at /org/freedesktop/login1/session/_3786
+ноя 19 17:08:32 userpc snapd-desktop-i[45091]: Detected new session 787 at /org/freedesktop/login1/session/_3787
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+Journal of logs:
+ноя 19 17:08:35 userpc snapd-desktop-i[45091]: Detected new session 795 at /org/freedesktop/login1/session/_3795
+ноя 19 17:08:35 userpc snapd-desktop-i[45091]: Detected new session 796 at /org/freedesktop/login1/session/_3796
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+Journal of logs:
+ноя 19 17:08:39 userpc snapd-desktop-i[45091]: Detected new session 809 at /org/freedesktop/login1/session/_3809
+ноя 19 17:08:39 userpc snapd-desktop-i[45091]: Detected new session 810 at /org/freedesktop/login1/session/_3810
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+Journal of logs:
+ноя 19 17:08:39 userpc snapd-desktop-i[45091]: Detected new session 809 at /org/freedesktop/login1/session/_3809
+ноя 19 17:08:39 userpc snapd-desktop-i[45091]: Detected new session 810 at /org/freedesktop/login1/session/_3810
+ноя 19 17:08:39 userpc snapd-desktop-i[45091]: Detected new session 811 at /org/freedesktop/login1/session/_3811
+ноя 19 17:08:39 userpc snapd-desktop-i[45091]: Detected new session 812 at /org/freedesktop/login1/session/_3812
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+Journal of logs:
+ноя 19 17:12:40 userpc sudo[48975]: pam_unix(sudo:auth): conversation failed
+ноя 19 17:12:40 userpc sudo[48975]: pam_unix(sudo:auth): auth could not identify password for [user2]
+ноя 19 17:12:40 userpc sudo[48975]:    user2 : 1 incorrect password attempt ; PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/apt list libarchive-zip-perl
+ноя 19 17:12:40 userpc snapd-desktop-i[48724]: Detected new session 828 at /org/freedesktop/login1/session/_3828
+ноя 19 17:12:40 userpc snapd-desktop-i[48724]: Detected new session 829 at /org/freedesktop/login1/session/_3829
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+Journal of logs:
+ноя 19 17:12:42 userpc snapd-desktop-i[48724]: Detected new session 831 at /org/freedesktop/login1/session/_3831
+ноя 19 17:12:42 userpc snapd-desktop-i[48724]: Detected new session 832 at /org/freedesktop/login1/session/_3832
+ноя 19 17:12:42 userpc snapd-desktop-i[48724]: Detected new session 833 at /org/freedesktop/login1/session/_3833
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+Journal of logs:
+ноя 19 17:12:50 userpc sudo[49568]: pam_unix(sudo:auth): conversation failed
+ноя 19 17:12:50 userpc sudo[49568]: pam_unix(sudo:auth): auth could not identify password for [user2]
+ноя 19 17:12:50 userpc sudo[49568]:    user2 : 1 incorrect password attempt ; PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/apt list libarchive-zip-perl
+ноя 19 17:12:50 userpc snapd-desktop-i[48724]: Detected new session 840 at /org/freedesktop/login1/session/_3840
+ноя 19 17:12:50 userpc snapd-desktop-i[48724]: Detected new session 841 at /org/freedesktop/login1/session/_3841
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+Journal of logs:
+ноя 19 17:12:52 userpc snapd-desktop-i[48724]: Detected new session 846 at /org/freedesktop/login1/session/_3846
+ноя 19 17:12:52 userpc snapd-desktop-i[48724]: Detected new session 847 at /org/freedesktop/login1/session/_3847
+ноя 19 17:12:52 userpc snapd-desktop-i[48724]: Detected new session 848 at /org/freedesktop/login1/session/_3848
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+Journal of logs:
+ноя 19 17:12:55 userpc snapd-desktop-i[48724]: Detected new session 855 at /org/freedesktop/login1/session/_3855
+ноя 19 17:12:55 userpc snapd-desktop-i[48724]: Detected new session 856 at /org/freedesktop/login1/session/_3856
+ноя 19 17:12:55 userpc snapd-desktop-i[48724]: Detected new session 857 at /org/freedesktop/login1/session/_3857
+ноя 19 17:12:55 userpc snapd-desktop-i[48724]: Detected new session 858 at /org/freedesktop/login1/session/_3858
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+Journal of logs:
+ноя 19 17:12:56 userpc snapd-desktop-i[48724]: Detected new session 859 at /org/freedesktop/login1/session/_3859
+ноя 19 17:12:56 userpc snapd-desktop-i[48724]: Detected new session 860 at /org/freedesktop/login1/session/_3860
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+Journal of logs:
+ноя 19 17:12:57 userpc snapd-desktop-i[48724]: Detected new session 862 at /org/freedesktop/login1/session/_3862
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+Journal of logs:
+ноя 19 17:12:59 userpc snapd-desktop-i[48724]: Detected new session 868 at /org/freedesktop/login1/session/_3868
+ноя 19 17:12:59 userpc snapd-desktop-i[48724]: Detected new session 869 at /org/freedesktop/login1/session/_3869
+ноя 19 17:12:59 userpc snapd-desktop-i[48724]: Detected new session 870 at /org/freedesktop/login1/session/_3870
+ноя 19 17:12:59 userpc snapd-desktop-i[48724]: Detected new session 871 at /org/freedesktop/login1/session/_3871
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+Journal of logs:
+ноя 19 17:13:03 userpc snapd-desktop-i[48724]: Detected new session 881 at /org/freedesktop/login1/session/_3881
+ноя 19 17:13:03 userpc snapd-desktop-i[48724]: Detected new session 882 at /org/freedesktop/login1/session/_3882
+ноя 19 17:13:03 userpc snapd-desktop-i[48724]: Detected new session 883 at /org/freedesktop/login1/session/_3883
+ноя 19 17:13:03 userpc snapd-desktop-i[48724]: Detected new session 884 at /org/freedesktop/login1/session/_3884
+ноя 19 17:13:04 userpc snapd-desktop-i[48724]: Detected new session 885 at /org/freedesktop/login1/session/_3885
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+Journal of logs:
+ноя 19 17:13:04 userpc snapd-desktop-i[48724]: Detected new session 885 at /org/freedesktop/login1/session/_3885
+ноя 19 17:13:04 userpc snapd-desktop-i[48724]: Detected new session 886 at /org/freedesktop/login1/session/_3886
+ноя 19 17:13:04 userpc snapd-desktop-i[48724]: Detected new session 887 at /org/freedesktop/login1/session/_3887
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
